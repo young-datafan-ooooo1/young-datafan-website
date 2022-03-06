@@ -5,7 +5,7 @@ const config = {
     title: 'DATAFAN',
     tagline: 'DATAFAN',
     url: 'https://young-datafan.com',
-    baseUrl: '/',
+    baseUrl: '/young-datafan-website/',
     onBrokenLinks: 'ignore',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'image/favicon.ico',
