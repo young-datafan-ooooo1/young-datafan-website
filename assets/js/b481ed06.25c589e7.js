@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkyoung_datafan_website=self.webpackChunkyoung_datafan_website||[]).push([[178],{6352:function(a){a.exports=JSON.parse('{"allTagsPath":"/young-datafan-website/blog/tags","slug":"/young-datafan-website/blog/tags/spark","name":"Spark","count":1,"permalink":"/young-datafan-website/blog/tags/spark"}')}}]);
