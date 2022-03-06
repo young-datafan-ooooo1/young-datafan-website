@@ -10,7 +10,7 @@ const config = {
     onBrokenMarkdownLinks: 'warn',
     favicon: 'image/favicon.ico',
     organizationName: 'young-datafan',
-    projectName: 'young-datafan',
+    projectName: 'young-datafan-website',
     i18n: {
         defaultLocale: "zh-CN",
         // locales: ["en", "zh-CN"],
