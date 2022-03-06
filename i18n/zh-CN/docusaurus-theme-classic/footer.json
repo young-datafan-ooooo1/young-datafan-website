@@ -1,0 +1,52 @@
+{
+  "link.item.label.Document": {
+    "message": "文档",
+    "description": "The label of footer link with label=Document linking to /docs/latest/introduction"
+  },
+  "link.item.label.DataIntegration": {
+    "message": "数据集成",
+    "description": "Navbar item with label DataIntegration DOC"
+  },
+  "link.item.label.DataStudio": {
+    "message": "数据开发",
+    "description": "Navbar item with label DataStudio DOC"
+  },
+  "link.item.label.DatafanReport": {
+    "message": "数据可视化",
+    "description": "Navbar item with label DatafanReport DOC"
+  },
+  "link.item.label.DataFanUI": {
+    "message": "datafan-ui",
+    "description": "Navbar item with label DataFanUI DOC"
+  },
+  "link.item.label.SqlBuilder": {
+    "message": "sqlbuilder",
+    "description": "Navbar item with label SqlBuilder DOC"
+  },
+  "link.item.label.FAQ": {
+    "message": "FAQ",
+    "description": "The label of footer link with label=FAQ linking to /faq/main"
+  },
+  "link.item.label.Releases": {
+    "message": "版本",
+    "description": "The label of footer link with label=Releases linking to https://github.com/young-datafan/data-integration/releases"
+  },
+  "link.title.Community": {
+    "message": "社区",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/young-datafan/data-integration"
+  },
+  "link.item.label.Issue Tracker": {
+    "message": "Issue Tracker",
+    "description": "The label of footer link with label=Issue Tracker linking to https://github.com/young-datafan/data-integration/issues"
+  },
+
+  "link.item.label.Pull Requests": {
+    "message": "Pull Requests",
+    "description": "The label of footer link with label=Pull Requests linking to https://github.com/young-datafan/data-integration/pulls"
+  }
+
+}

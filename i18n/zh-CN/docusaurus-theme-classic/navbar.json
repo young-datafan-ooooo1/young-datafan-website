@@ -1,0 +1,86 @@
+{
+  "item.label.Home": {
+    "message": "首页",
+    "description": "Navbar item with label HOME"
+  },
+  "item.label.Document": {
+    "message": "文档",
+    "description": "Navbar item with label DOC"
+  },
+  "item.label.DataIntegration": {
+    "message": "数据集成",
+    "description": "Navbar item with label DataIntegration DOC"
+  },
+  "item.label.DataStudio": {
+    "message": "数据开发",
+    "description": "Navbar item with label DataStudio DOC"
+  },
+  "item.label.DatafanReport": {
+    "message": "数据可视化",
+    "description": "Navbar item with label DatafanReport DOC"
+  },
+  "item.label.DataFanUI": {
+    "message": "datafan-ui",
+    "description": "Navbar item with label DataFanUI DOC"
+  },
+  "item.label.SqlBuilder": {
+    "message": "sqlbuilder",
+    "description": "Navbar item with label SqlBuilder DOC"
+  },
+  "item.label.Next": {
+    "message": "Next",
+    "description": "Navbar item with label Next"
+  },
+  "item.label.Development": {
+    "message": "开发",
+    "description": "Navbar item with label DEVELOPMENT"
+  },
+  "item.label.Community": {
+    "message": "社区",
+    "description": "Navbar item with label COMMUNITY"
+  },
+  "item.label.Blog": {
+    "message": "博客",
+    "description": "Navbar item with label BLOG"
+  },
+  "item.label.Team": {
+    "message": "团队",
+    "description": "Navbar item with label Team"
+  },
+  "item.label.Users": {
+    "message": "用户",
+    "description": "Navbar item with label Team"
+  },
+  "item.label.ASF": {
+    "message": "Apache",
+    "description": "Navbar item with label ASF"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.Foundation": {
+    "message": "基金会",
+    "description": "Navbar item with label Foundation"
+  },
+  "item.label.License": {
+    "message": "证书",
+    "description": "Navbar item with label License"
+  },
+  "item.label.Events": {
+    "message": "事件",
+    "description": "Navbar item with label Events"
+  },
+  "item.label.Security": {
+    "message": "安全",
+    "description": "Navbar item with label Security"
+  },
+  "item.label.Sponsorship": {
+    "message": "赞助",
+    "description": "Navbar item with label Sponsorship"
+  },
+  "item.label.Thanks": {
+    "message": "致谢",
+    "description": "Navbar item with label Thanks"
+  }
+}
