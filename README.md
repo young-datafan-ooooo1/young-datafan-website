@@ -108,3 +108,19 @@ css等样式文件放在`src/css`目录下
 │ index.js
 │ index.less
 ```
+## 同步至gitee加入访问
+
+### 同步至github
+
+1. 先build命令 : `yarn build`
+2. 然后执行deploy: `yarn deploy`
+
+### 同步至gitee
+
+1. 添加远程仓库（只需要执行一次）：
+```shell
+git remote add gitee git@gitee.com:young-datafan/young-datafan-website.git
+```
+2. 切换分支: `git checkout gh-pages`
+
+3. push到gitee: `git push gitee` 
