@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkyoung_datafan_website=self.webpackChunkyoung_datafan_website||[]).push([[631],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u6253\u901a\u4ece\u6570\u636e\u96c6\u6210\u5230\u6570\u636e\u5e94\u7528\u7684\u5168\u6d41\u7a0b!","permalink":"/blog/datafan"}]}')}}]);

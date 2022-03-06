@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyoung_datafan_website=self.webpackChunkyoung_datafan_website||[]).push([[10],{4037:function(a){a.exports=JSON.parse('{"allTagsPath":"/young-datafan-website/blog/tags","slug":"/young-datafan-website/blog/tags/flink-sql","name":"FlinkSQL","count":1,"permalink":"/young-datafan-website/blog/tags/flink-sql"}')}}]);

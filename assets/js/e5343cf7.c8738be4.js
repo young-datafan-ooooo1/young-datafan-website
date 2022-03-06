@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkyoung_datafan_website=self.webpackChunkyoung_datafan_website||[]).push([[480],{4193:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/kettle","name":"Kettle","count":1,"permalink":"/blog/tags/kettle"}')}}]);
