@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>DATAFAN Blog</title>
-        <link>https://young-datafan.com/blog</link>
+        <link>https://www.young-datafan.com/blog</link>
         <description>DATAFAN Blog</description>
         <lastBuildDate>Sun, 06 Mar 2022 16:20:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[打通从数据集成到数据应用的全流程!]]></title>
-            <link>https://young-datafan.com/blog/datafan</link>
+            <link>https://www.young-datafan.com/blog/datafan</link>
             <guid>datafan</guid>
             <pubDate>Sun, 06 Mar 2022 16:20:47 GMT</pubDate>
             <description><![CDATA[DataFan 是由多位在数据行业深耕多年的老兵和一群有梦想、有朝气、敢于拼搏的年轻团队。]]></description>
