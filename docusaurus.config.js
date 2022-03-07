@@ -61,7 +61,7 @@ const config = {
             disableSwitch: true
         },
         navbar: {
-            title: '数据爱好者',
+            title: '数据范',
             logo: {
                 alt: 'Young DataFan Logo',
                 src: 'image/logo.png',
