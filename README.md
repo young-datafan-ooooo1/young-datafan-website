@@ -100,7 +100,7 @@ css等样式文件放在`src/css`目录下
 │      index.less  首页样式
 ```
 ### 3.6 团队页面修改
-访问页面  http://www.young-datafan.com/team
+访问页面  https://www.young-datafan.com/team
 位于 `src/pages/team`
 ```
 ├─team
