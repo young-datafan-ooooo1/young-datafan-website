@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
     title: 'DATAFAN',
     tagline: 'DATAFAN',
-    url: 'https://young-datafan.com',
+    url: 'https://www.young-datafan.com',
     baseUrl: '/',
     onBrokenLinks: 'ignore',
     onBrokenMarkdownLinks: 'warn',
