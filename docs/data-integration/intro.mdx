@@ -1,0 +1,55 @@
+---
+sidebar_position: 1
+---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+# 平台介绍
+基于kettle实现的web版数据集成平台，致力于提供web可拖拽的数据集成平台。
+
+> 让kettle使用更简单
+
+## 什么是Data Integration
+
+基于`kettle`实现的web版数据集成平台，致力于提供web可拖拽的数据集成平台。
+
+其主要特点有：
+* vue2+springCloud架构（后续支持vue3）
+* 支持kettle本地引擎，后续扩展spark/flink引擎
+* 支持ftp/s3协议的文件读取
+由于公司采用`springcloud`微服务架构开发整个数据中台产品，数据集成属于其中的一个子模块，所以暂时还是采用`springcloud`的架构进行开源，便于版本统一。
+
+## ‍组成部分
+
+`data integration`有两个部分组成,分别是`Engine`,`Data Integration Console`
+
+![DataIntegration Archite](/doc/image/dataintegration/dataintegration-archite.png)
+
+### 1️⃣ Engine
+
+`Engine` 定位是一个开放的兼容各种引擎的框架，关注编码开发，规范了配置文件，按照约定优于配置的方式进行开发。提供了`Kettle Local`本地引擎的执行，后续会支持`Spark`引擎，能将作业提交到`Spark`引擎中执行；
+同时支持将作业提交到`flink`，提供实时计算能力。统一的DAG作业开发，各种计算引擎的自由选择，简化繁琐的操作，聚焦业务本身，提高开发效率和开发体验。
+
+### 2️⃣ Data-Integration-Console
+
+`Data-Integration-Console` 是一个综合数据集成平台，低代码(`Low Code`)平台，可以较好的管理`数据集成DAG`任务，集成了项目编译、发布、参数配置、启动、各种计算引擎的自由选择、
+监控等诸多功能于一体，大大简化了数据集成任务的日常操作和维护，融合了诸多最佳实践。
+
+* [Pentaho Kettle](https://www.hitachivantara.com/en-us/home.html)
+* [Apache Spark](http://spark.apache.org)
+* [Apache Flink](http://flink.apache.org)
+* ...
+
+感谢以上优秀的开源项目和很多未提到的优秀开源项目,给予最大的respect。
+
+## 平台模块
+
+* dataintegration-common : 公共模块
+* dataintegration-group : 分组管理
+* dataintegration-project : 脚本管理
+* dataintegration-run : 数据集成运行模块
+* dataintegration-sso : sso单点登录模块
+* dataintegration-sys : 系统管理模块
+* dataintegration-vue : 前端vue模块
+* ...
+

@@ -78,7 +78,7 @@ const config = {
                     position: 'right',
                     items: [
                         {
-                            to: '/docs/data-integration',
+                            to: '/docs/data-integration/intro',
                             activeBaseRegex: `/docs`,
                             label: 'DataIntegration'
                         },
