@@ -136,7 +136,7 @@ const config = {
                     items: [
                         {
                             label: 'Document',
-                            href: '/docs/data-integration',
+                            href: '/docs/data-integration/intro',
                         },
                         {
                             label: 'FAQ',
