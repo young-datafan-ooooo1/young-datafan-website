@@ -93,7 +93,7 @@ const config = {
                             label: 'DatafanReport'
                         },
                         {
-                            to: '/docs/datafan-ui',
+                            to: 'http://ui.young-datafan.com/',
                             activeBaseRegex: `/docs`,
                             label: 'DataFanUI'
                         },
