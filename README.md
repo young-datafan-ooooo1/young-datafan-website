@@ -28,8 +28,10 @@ develop  默认分支
 ## 2.目录结构
 ```html
 
-|-- community //社区
-|-- docs     //文档  存方下一个即将发布的版本
+|-- docs-data-integration   // 集成平台介绍
+|-- docs-data-studio        // 数据开发平台介绍
+|-- docs-datafan-report     // 数据可视化平台介绍
+|-- docs-sqlbuilder         // SqlBuilder工具介绍
 |-- download //下载
 |-- faq      //Q&A
 |-- i18n    

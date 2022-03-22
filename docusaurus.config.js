@@ -30,18 +30,7 @@ const config = {
         [
             '@docusaurus/preset-classic',
             ({
-                docs: {
-                    sidebarPath: require.resolve('./sidebars.js'),
-                    sidebarCollapsible: true,
-                    editLocalizedFiles: true,
-                    sidebarCollapsed: false,
-                    // Please change this to your repo.
-                    editUrl: 'https://github.com/young-datafan/young-datafan-website/edit/develop/',
-                    remarkPlugins: [
-                        [require('@docusaurus/remark-plugin-npm2yarn'), {sync: true}],
-                    ],
-                },
-
+                docs: false,
                 blog: {
                     showReadingTime: true,
                     // Please change this to your repo.
@@ -78,28 +67,28 @@ const config = {
                     position: 'right',
                     items: [
                         {
-                            to: '/docs/data-integration/intro',
-                            activeBaseRegex: `/docs`,
+                            to: '/docs-data-integration/intro',
+                            activeBaseRegex: `/docs-data-integration`,
                             label: 'DataIntegration'
                         },
                         {
-                            to: '/docs/data-studio',
-                            activeBaseRegex: `/docs`,
+                            to: '/docs-data-studio',
+                            activeBaseRegex: `/docs-data-studio`,
                             label: 'DataStudio'
                         },
                         {
-                            to: '/docs/datafan-report',
-                            activeBaseRegex: `/docs`,
+                            to: '/docs-datafan-report',
+                            activeBaseRegex: `/docs-datafan-report`,
                             label: 'DatafanReport'
                         },
                         {
                             to: 'https://ui.young-datafan.com',
-                            activeBaseRegex: `/docs`,
+                            activeBaseRegex: `/ui.young-datafan.com`,
                             label: 'DataFanUI'
                         },
                         {
-                            to: '/docs/sqlbuilder',
-                            activeBaseRegex: `/docs`,
+                            to: '/docs-sqlbuilder/intro',
+                            activeBaseRegex: `/docs-sqlbuilder`,
                             label: 'SqlBuilder'
                         }
                     ]
@@ -182,12 +171,39 @@ const config = {
         [
             '@docusaurus/plugin-content-docs',
             {
-                id: 'community',
-                path: 'community',
-                routeBasePath: 'community',
+                id: 'docs-data-integration',
+                path: 'docs-data-integration',
+                routeBasePath: 'docs-data-integration',
                 sidebarPath: require.resolve('./sidebars.js'),
-            },
+            }
         ],
+        [
+            '@docusaurus/plugin-content-docs',
+            {
+                id: 'docs-data-studio',
+                path: 'docs-data-studio',
+                routeBasePath: 'docs-data-studio',
+                sidebarPath: require.resolve('./sidebars.js'),
+            }
+        ],
+        [
+            '@docusaurus/plugin-content-docs',
+            {
+                id: 'docs-datafan-report',
+                path: 'docs-datafan-report',
+                routeBasePath: 'docs-datafan-report',
+                sidebarPath: require.resolve('./sidebars.js'),
+            }
+        ],
+        [
+            '@docusaurus/plugin-content-docs',
+            {
+                id: 'docs-sqlbuilder',
+                path: 'docs-sqlbuilder',
+                routeBasePath: 'docs-sqlbuilder',
+                sidebarPath: require.resolve('./sidebars.js'),
+            }
+        ]
     ]
 };
 
