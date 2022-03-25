@@ -36,7 +36,7 @@ export default function () {
                                     <i className="lni-github-original"></i>&nbsp;GitHub
                                 </a>
                                 <a className="btn datafan-btn btn-purple mt-30 ml-2 ztop"
-                                   href="https://gitee.com/young-datafan" target="_blank"
+                                   href="https://gitee.com/datafan" target="_blank"
                                    style={{marginLeft: '15px'}}>
                                     <img src={useBaseUrl('/home/gitee.png')} className="icon-gitee"></img>&nbsp;Gitee
                                 </a>
