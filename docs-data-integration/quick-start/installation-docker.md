@@ -109,24 +109,6 @@ sh install/install.sh 127.0.0.1
 访问前端页面：http://127.0.0.1:8081/dataintegration-ui/#/
 默认的用户是admin，默认的密码是Prime@2020
 
-## FAQ
-### dataintegration-file-management启动后，office-home不存在,安装openoffice即可。
-下面主要介绍mac安装，windows可以进行网上搜索教程，请自行安装即可。
-下载地址：http://www.openoffice.org/zh-cn/download/
-* 下载后自动安装
-vim ~/.zshrc //有的可能是.bashrc文件
-或者终端打开：open ~/.zshr
-在.zshrc文件中增加
-```javascript
-export PATH=$PATH:/Applications/OpenOffice.app/Contents/MacOS
-```
-* 执行
-```javascript
-source ~/.zshrc 
-source ~/.bash_profile
- ```
-* 启动OpenOffice（将以服务的方式启动OpenOffice，并监听本机的8100端口
-```javascript
-soffice -headless -accept="socket,host=localhost,port=8100;urp;" -nofirststartwizard
- ```
+![DataIntegration Archite](/doc/image/dataintegration/login.png)
+
 
