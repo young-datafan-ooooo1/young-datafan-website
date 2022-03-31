@@ -108,7 +108,7 @@ sh install/install.sh 127.0.0.1
 ## 登录系统
 访问前端页面：http://127.0.0.1:8081/dataintegration-ui/#/
 默认的用户是admin，默认的密码是Prime@2020
-
+![DataIntegration Archite](/doc/image/dataintegration/login.png)
 ## FAQ
 ### dataintegration-file-management启动后，office-home不存在,安装openoffice即可。
 下面主要介绍mac安装，windows可以进行网上搜索教程，请自行安装即可。
