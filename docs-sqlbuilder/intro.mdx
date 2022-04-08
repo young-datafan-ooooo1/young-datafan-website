@@ -4,7 +4,7 @@ sidebar_position: 1
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# 平台介绍
+# 项目介绍
 
 ### SQLBULIDER初衷
 - 为了让SQL拼接更加的简单一些，通过一些结构定义，生成各种数据库支持的SQL。
@@ -17,13 +17,13 @@ https://github.com/young-datafan/sqlbuilder
  <dependency>
       <groupId>com.young-datafan</groupId>
       <artifactId>sqlbuilder</artifactId>
-      <version>1.4.0</version>
+      <version>1.4.2</version>
 </dependency>
 ```
 
 ## Gradle via JCenter
 ``` groovy
-compile 'com.young-datafan:sqlbuilder:1.4.0'
+compile 'com.young-datafan:sqlbuilder:1.4.2'
 ```
 
 ## 目前支持的函数
@@ -149,4 +149,5 @@ compile 'com.young-datafan:sqlbuilder:1.4.0'
 | median         | 中位数         | N     | Y      | Y          | Y          | Y   | N         |
 | var_samp       | 方差          | Y     | Y      | Y          | Y          | Y   | Y         |
 | stddev_samp    | 标准差         | Y     | Y      | Y          | Y          | Y   | Y         |
+| weighted_mean  | 加权平均         | Y     | Y      | Y          | Y          | Y   | Y         |
 
