@@ -155,7 +155,7 @@ const config = {
                     ],
                 }
             ],
-            copyright: `<p style="padding: 0 20px 30px;color: #999999; font-weight: 400;">Apache LICENSE 2.0 Licensed, Copyright © 2019-${new Date().getFullYear()} Young-DataFan All Rights Reserved</p>`,
+            copyright: `<p style="padding: 0 20px 30px;color: #999999; font-weight: 400;">Apache LICENSE 2.0 Licensed, Copyright © 2019-${new Date().getFullYear()} Young-DataFan All Rights Reserved. <a class="text-color" href="https://beian.miit.gov.cn" target="_blank">沪ICP备2022010017号</a></p>`,
         },
 
         prism: {

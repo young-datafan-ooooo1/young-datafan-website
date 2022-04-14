@@ -44,4 +44,4 @@ jobs:
           host: ${{ secrets.HOST }}
           port: ${{secrets.PORT}}
           username: ${{ secrets.USER }}
-          privateKey: ${{ secrets.PEM }}
+          password: ${{ secrets.PEM }}
