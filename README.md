@@ -3,7 +3,7 @@
 
 [English](README.md) | [中文](README_ZH.md)
 
-这是包含 `https://www.young-datafan.com` 的所有源代码的存储库。
+这是包含 `http://www.young-datafan.com` 的所有源代码的存储库。
 本指南将指导您如何为young-datafan的网站做出贡献。
 
 
@@ -93,7 +93,7 @@ css等样式文件放在`src/css`目录下
 > 除了首页、团队、用户、Docs>All Version 模块页面外，其余页面都能通过底部的'Edit this page'按钮 直接跳转至对应的github的资源修改页
 
 ### 3.5 首页页面修改
-访问页面  https://www.young-datafan.com
+访问页面  http://www.young-datafan.com
 位于 `src/pages/home`
 
 ```
@@ -102,7 +102,7 @@ css等样式文件放在`src/css`目录下
 │      index.less  首页样式
 ```
 ### 3.6 团队页面修改
-访问页面  https://www.young-datafan.com/team
+访问页面  http://www.young-datafan.com/team
 位于 `src/pages/team`
 ```
 ├─team
