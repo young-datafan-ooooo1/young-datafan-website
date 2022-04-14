@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.young-datafan.com/blog</id>
+    <id>http://www.young-datafan.com/blog</id>
     <title>DATAFAN Blog</title>
     <updated>2022-03-06T16:20:47.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://www.young-datafan.com/blog"/>
+    <link rel="alternate" href="http://www.young-datafan.com/blog"/>
     <subtitle>DATAFAN Blog</subtitle>
-    <icon>https://www.young-datafan.com/image/favicon.ico</icon>
+    <icon>http://www.young-datafan.com/image/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[打通从数据集成到数据应用的全流程!]]></title>
         <id>datafan</id>
-        <link href="https://www.young-datafan.com/blog/datafan"/>
+        <link href="http://www.young-datafan.com/blog/datafan"/>
         <updated>2022-03-06T16:20:47.000Z</updated>
         <summary type="html"><![CDATA[DataFan 是由多位在数据行业深耕多年的老兵和一群有梦想、有朝气、敢于拼搏的年轻团队。]]></summary>
         <content type="html"><![CDATA[<br/><h1>1. 背景</h1><p>DataFan 是由多位在数据行业深耕多年的老兵和一群有梦想、有朝气、敢于拼搏的年轻团队。</p><p>DataFan 的初衷是为了打通企业从数据集成-&gt;数据开发-&gt;数据应用的全流程。将数据集成、数据开发（离线+实时）、数据可视化等平台开源出来，同开源社区一同治理和发展。</p><br/><br/><h1>2. 未来规划</h1><p>后续会开源出数据集成平台、数据开发平台、数据可视化平台、DataFanUI，以及平台中所涉及到的一些工具包。</p><h2>数据集成平台</h2><p>基于 kettle 实现的 web 版数据集成平台，致力于提供 web 可拖拽的数据集成平台。</p><h2>数据开发平台</h2><p>通过 Online Studio 打造一个一站式大数据开发平台：</p><ul><li>基于自定义 DSL，实现类 SQL 语言来进行 Spark 编程，不需要依托 Hive 也能实现 Spark 的所有功能。</li><li>为了让流处理更简单，基于 Flink-SQL，实现流批一体，湖仓一体的开发平台。</li></ul><h2>数据可视化平台</h2><ul><li>datafan-report 是开源的数据可视化分析工具，帮助用户快速分析数据并洞察业务趋势，从而实现业务的改进与优化。</li><li>datafan-report 支持丰富的数据源连接，能够通过拖拉拽方式快速制作图表，并可以方便的与他人分享。</li></ul><h2>SqlBuilder</h2><p>SqlBuilder的初衷是为了让SQl拼接更简单一些，通过统一的结构定义，生成各种数据库支持的SQL。</p><h2>DataFan-UI</h2><p>基于Ant Design包装的UI组件库。</p>]]></content>
