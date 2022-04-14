@@ -1,0 +1,92 @@
+---
+sidebar_position: 5
+---
+
+# case when 
+
+### 使用示例
+
+````java
+import com.youngdatafan.sqlbuilder.enums.DatabaseType;
+import com.youngdatafan.sqlbuilder.enums.FunctionType;
+import com.youngdatafan.sqlbuilder.model.Function;
+import com.youngdatafan.sqlbuilder.model.Model;
+import com.youngdatafan.sqlbuilder.model.Query;
+import com.youngdatafan.sqlbuilder.model.Schema;
+import com.youngdatafan.sqlbuilder.model.Table;
+
+public class Test {
+
+    @org.junit.Test
+    public void getFunction() {
+        Schema schema = Schema.getSchema("");
+        Table test = Table.getOriginalTable(schema, "test", "t");
+        Model num1 = test.addField("num1");
+        Model num2 = test.addField("num2");
+        Query query = new Query();
+        Case caseModel = new Case();
+        BinaryCondition binaryCondition = BinaryCondition.greaterThan(num1, num2);
+        caseModel.addWhenThen(binaryCondition, CustomSql.getCustomSql("1"));
+        caseModel.addElse(CustomSql.getCustomSql("0"));
+        query.addColumn("val", caseModel);
+        query.addFrom(test);
+        System.out.println("oracle：");
+        System.out.println(query.getDatabaseSql(DatabaseType.ORACLE));
+        System.out.println();
+
+        System.out.println("pg：");
+        System.out.println(query.getDatabaseSql(DatabaseType.POSTGRESQL));
+        System.out.println();
+
+        System.out.println("clickhouse：");
+        System.out.println(query.getDatabaseSql(DatabaseType.CLICKHOUSE));
+        System.out.println();
+
+        System.out.println("mysql：");
+        System.out.println(query.getDatabaseSql(DatabaseType.MYSQL));
+        System.out.println();
+
+        System.out.println("sqlserver：");
+        System.out.println(query.getDatabaseSql(DatabaseType.MSSQL));
+        System.out.println();
+
+        System.out.println("kdw：");
+        System.out.println(query.getDatabaseSql(DatabaseType.KDW));
+        System.out.println();
+    }
+}
+````
+根据数据源获取对于数据库的sql。
+
+### ORACLE
+
+````sql
+SELECT (CASE WHEN t."num1" > t."num2" THEN 1 ELSE 0 END) AS "val" FROM "test" t
+ ````
+
+### MYSQL
+
+````sql
+SELECT (CASE WHEN t.`num1` > t.`num2` THEN 1 ELSE 0 END) AS `val` FROM `test` t  
+````
+
+### POSTGRESQL
+````sql
+SELECT (CASE WHEN t.num1 > t.num2 THEN 1 ELSE 0 END) AS val FROM test t 
+````
+
+### CLICKHOUSE
+````sql
+SELECT (CASE WHEN t.num1 > t.num2 THEN 1 ELSE 0 END) AS val FROM test t
+````
+
+### KDW
+````sql
+SELECT (CASE WHEN t.num1 > t.num2 THEN 1 ELSE 0 END) AS val FROM test t 
+````
+
+### SQLSERVER
+
+````sql
+SELECT (CASE WHEN t.num1 > t.num2 THEN 1 ELSE 0 END) AS val FROM test t
+````
